@@ -17,5 +17,4 @@ Ensure pyserial is installed, then pass your .hex payload to the flasher:
    pip install pyserial
    python3 pico_flasher.py /path/to/rom_payload.hex
 
-## License
-MIT License
+## you MUST have level shifters like the 74lvc245 and 74hct245 because if 5v are apllied to the picos pins it WILL fry the internal output drivers
